@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Analisador</title>
+    <link rel="stylesheet" type="text/css" href="styleAnalisador.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>    
+    
+    <section>
+        <div id="div1"> 
+            <label for="num">Número (entre 1 a 100):</label>
+            <input type="text" id="num" name="numero">
+            <input type="button" value="Adcionar" id="botAdd" onclick="addNum()">
+            <br>
+            <select name="tabela" id="tabelaNumeros" size="6"></select>
+            <br>
+            <input type="button" value="Finalizar" id="botFim" onclick="finalizar()">
+        </div>
+
+        <div id="resultado">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Direitos Reservados </p>
+    </footer>
+
+    <script src="scriptAnalisador.js"></script>
+</body>
+</html>

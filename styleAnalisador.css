@@ -1,0 +1,32 @@
+body {
+    background: rgb(82, 139, 245);
+    font: normal 15pt arial;
+    text-align: center;
+}
+
+header, footer {
+    color: white;
+}
+
+section {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: whitesmoke;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.836);
+    text-align: left;
+}
+
+#tabelaNumeros {
+    width: 150px;
+}
+
+footer {
+    font-style: italic;
+}
+
+div {
+    padding: 10px;
+}
